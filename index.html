@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=750">
+<title>ABOUT ME · 도화살롱</title>
+<style>/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-901c3ad3.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-d4ff14a2.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-48e5c21d.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-0f3e7533.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-fb48e36f.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-65a73f4d.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-a65d4924.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/playfair-display-118eb3fa.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/playfair-display-fb48e36f.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/playfair-display-65a73f4d.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/playfair-display-a65d4924.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/playfair-display-118eb3fa.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+@font-face { font-family: "PretendardKR"; src: url("fonts/pretendardkr-d307fb8c.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "PretendardKR"; src: url("fonts/pretendardkr-d9669ee1.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "PretendardKR"; src: url("fonts/pretendardkr-dace1e7f.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "PretendardKR"; src: url("fonts/pretendardkr-80f58263.woff2") format("woff2"); font-weight: 900; font-display: swap; }
+body { margin: 0; background: #0a0a0a; font-family: "PretendardKR", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+@keyframes om-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+a { color: #F2F0EC; text-decoration: none; }
+a:hover { color: #F5C518; }
+
+</style>
+<style>
+html, body { width: 750px; margin: 0 auto; background: #0a0a0a; }
+a { display: block; }
+.hv1:hover { background: #3EA575; transform: scale(1.08) !important; }
+.hv2:hover { background: #262626 !important; }
+.hv3:hover { background: #fff; transform: translateY(-3px) !important; }
+</style>
+</head>
+<body>
+<div style="width: 750px; margin: 0 auto; background: #0a0a0a; color: #F2F0EC; font-family: 'PretendardKR', system-ui, sans-serif; overflow: hidden; text-wrap: pretty">
+
+  <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 32px 44px 16px; font-size: 15px; font-weight: 600; letter-spacing: 0.1em">
+    <span>도화살롱 DOHWA SALON</span>
+    <span style="color: #F5C518">ISSUE 01 / ABOUT ME</span>
+    <span>2026</span>
+  </div>
+  <div style="height: 2px; background: #F2F0EC; margin: 0 44px"></div>
+
+  <div style="padding: 78px 44px 0">
+    <div style="font-size: 88px; font-weight: 900; line-height: 1.0; letter-spacing: -0.05em">ME,</div>
+    <div style="display: flex; align-items: flex-end; gap: 18px; margin-top: 14px">
+      <div style="font-size: 88px; font-weight: 900; line-height: 1.0; letter-spacing: -0.05em">BY DESIGN.</div>
+      <div style="font-family: 'Playfair Display', serif; font-style: italic; font-weight: 700; font-size: 46px; color: #F5C518; line-height: 1; padding-bottom: 8px">edit</div>
+    </div>
+    <div style="margin-top: 76px; width: 96px; height: 4px; background: #F5C518"></div>
+    <div style="margin-top: 30px; font-size: 32px; font-weight: 900; letter-spacing: -0.02em">나라는 사람을 디자인한다.</div>
+    <div style="margin-top: 30px; font-size: 20px; font-weight: 500; line-height: 1.85; color: #C6C6C6">색부터 취향, 속도, 이미지, 그리고 삶의 방식까지.<br>남이 정해준 기준이 아니라, <strong style="font-weight: 800; color: #BFBCBC">나에게 딱 맞는 ‘나만의 기준’을 찾는 일.</strong></div>
+    <div style="margin-top: 64px; height: 1px; background: #F2F0EC"></div>
+    <div style="margin-top: 22px; display: flex; justify-content: space-between; font-size: 15px; font-weight: 600; letter-spacing: 0.16em">
+      <span>COLOR</span><span>TEMPERAMENT</span><span>TASTE</span><span>PRESENCE</span>
+    </div>
+  </div>
+
+  <div style="margin-top: 130px; position: relative">
+    <div style="position: absolute; left: 0; top: -60px; width: 152px; height: 152px; background: #F5C518; z-index: 1"></div>
+    <div style="position: absolute; right: 34px; bottom: 40px; z-index: 2; width: 130px; height: 130px; border-radius: 50%; background: #F5C518; color: #111; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; transform: rotate(-12deg)">
+      <span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em">ISSUE 01</span>
+      <span style="font-size: 24px; font-weight: 900; letter-spacing: -0.02em">31 CH.</span>
+      <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.1em">PREMIUM</span>
+    </div>
+    <video src="video/5b8a8526.mp4" autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" style="position: relative; z-index: 0; width: 100%; display: block;"></video>
+  </div>
+
+  <div style="background: #111; color: #fff; padding: 110px 44px">
+    <div style="font-size: 16px; font-weight: 600; letter-spacing: 0.26em">ABOUT ME</div>
+    <div style="margin-top: 54px; font-size: 84px; font-weight: 900; line-height: 1.06; letter-spacing: -0.05em">PERSONAL<br>BRANDING.</div>
+    <div style="margin-top: 72px; font-size: 28px; font-weight: 900">「나라는 사람을 디자인하는 법」</div>
+    <div style="margin-top: 44px; font-size: 17px; font-weight: 600; letter-spacing: 0.1em; line-height: 2; color: #b9b9b9">ASTROLOGY, EDITED FOR REAL LIFE.<br>DOHWA SALON</div>
+  </div>
+
+
+  <div style="padding: 140px 44px 0; display: block">
+    <div>
+      <div style="margin-top: 60px; font-size: 74px; font-weight: 900; line-height: 1.18; letter-spacing: -0.05em">퍼스널컬러<br>해봤지.</div>
+      <div style="margin-top: 100px; font-size: 46px; font-weight: 900; line-height: 1.9; letter-spacing: -0.035em">그래서 뭐,<br><span style="color: rgb(245, 197, 24);">좀 달라졌어?</span></div>
+      <div style="margin-top: 56px; display: flex; gap: 10px">
+        <div style="width: 78px; height: 26px; background: #F3D5E1"></div>
+        <div style="width: 78px; height: 26px; background: #EE5FA0"></div>
+        <div style="width: 78px; height: 26px; background: #8A6474"></div>
+        <div style="width: 78px; height: 26px; background: #2B2B2B"></div>
+      </div>
+      <div style="margin-top: 100px; font-size: 25px; font-weight: 500; line-height: 1.9; color: #B0ACA6; position: relative">뻔한 성격 유형? 이제 지겹고.<br>대충 때려 맞추는 운세? 내 복잡한 속은 하나도 모르잖아.<br><br></div>
+    </div>
+  </div>
+
+  <img src="img/fd42a7e8.webp" width="2160" height="3704" decoding="async" alt="mirror" style="margin-top: 110px; width: 100%; display: block; border-width: 1px; border-style: solid; border-color: #000000;height:auto">
+
+  <div style="padding: 140px 44px 150px">
+    <div style="margin-top: 60px; font-size: 52px; font-weight: 900; line-height: 1.26; letter-spacing: -0.04em; text-align: left">넌 네가 어떤사람 같아?<br><font color="#3ea575">남들은 뒤에서 <br>널 어떻게 얘기할까?</font></div>
+    <div style="margin-top: 80px; font-size: 25px; font-weight: 800; line-height: 1.6; letter-spacing: -0.01em; color: #3EA575; text-align: left">"사람들이 너를 처음 봤을 때 진짜 느끼는 첫인상."<br>"너를 유독 불편해하는 사람들이 은근히 피하는 이유"</div>
+    <div style="margin-top: 90px; text-align: left">
+      <div style="font-size: 70px; font-weight: 900; line-height: 1.3; color: #C7C3BD">솔직히 궁금하잖아?</div>
+    </div>
+  </div>
+
+  
+
+  
+
+
+
+
+
+  
+
+  
+
+  <div style="padding: 60px 44px 0; display: block">
+    <div>
+      <div style="font-family: 'Playfair Display', serif; font-size: 62px; font-weight: 900; line-height: 1">CONTENTS</div>
+      <div style="margin-top: 26px; font-size: 19px; font-weight: 600; color: #8a8a8a; letter-spacing: 0.04em">전 31개 챕터 · PREMIUM EDITION</div>
+    </div>
+  </div>
+
+  <div style="padding: 60px 44px 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; align-items: start">
+    <div style="display: flex; flex-direction: column">
+      <div style="margin-top: 40px; padding-bottom: 14px; border-bottom: 2px solid #F2F0EC; display: flex; align-items: baseline; gap: 12px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em; color: #F5C518">PART 1</span><span style="font-size: 21px; font-weight: 900; letter-spacing: -0.02em">제1부 메타인지</span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">01.</span>친구가 다른 친구에게 나를 소개한다면?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">02.</span>사람들이 은근히 부러워하는 내 모습은?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">03.</span>사람들이 나에게 차마 말하지 않는 것은?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">04.</span>나를 싫어하는 사람들의 공통점</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; align-items: center; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">05.</span><span style="flex: 1; height: 11px; background: #202020"></span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; align-items: center; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">06.</span><span style="flex: 1; height: 11px; background: #202020"></span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; align-items: center; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">07.</span><span style="flex: 1; height: 11px; background: #202020"></span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; align-items: center; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">08.</span><span style="flex: 1; height: 11px; background: #202020"></span></div>
+      <div style="margin-top: 40px; padding-bottom: 14px; border-bottom: 2px solid #F2F0EC; display: flex; align-items: baseline; gap: 12px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em; color: #3EA575">PART 2</span><span style="font-size: 21px; font-weight: 900; letter-spacing: -0.02em">제2부 시그니처</span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">09.</span>내 추구미와 사람들이 보는 나의 차이</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">10.</span>첫인상 3초 공식</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; align-items: center; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">11.</span><span style="flex: 1; height: 11px; background: #202020"></span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">12.</span>이성에게 어필되는 부분</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">13.</span>나의 X들은 나를 어떻게 기억할까?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; align-items: center; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">14.</span><span style="flex: 1; height: 11px; background: #202020"></span></div>
+      <div style="border-top: 1px solid #2a2a2a; border-bottom: 2px solid #F2F0EC; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">15.</span>사람들이 결국 기억하는 나의 한 가지</div>
+    </div>
+    <div style="display: flex; flex-direction: column">
+      <div style="margin-top: 40px; padding-bottom: 14px; border-bottom: 2px solid #F2F0EC; display: flex; align-items: baseline; gap: 12px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em; color: #F5C518">PART 3</span><span style="font-size: 21px; font-weight: 900; letter-spacing: -0.02em">제3부 SNS의 미학</span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">16.</span>나는 얼굴을 드러낼수록 유리할까?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">17.</span>내가 유명해지려면?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">18.</span>내 매력이 가장 돋보이는 플랫폼</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">19.</span>AI 시대에 나는 무엇을 하는 사람인가</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">20.</span>1인 사업, 나인가 브랜드인가</div>
+      <div style="margin-top: 40px; padding-bottom: 14px; border-bottom: 2px solid #F2F0EC; display: flex; align-items: baseline; gap: 12px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em; color: #3EA575">PART 4</span><span style="font-size: 21px; font-weight: 900; letter-spacing: -0.02em">제4부 관계</span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">21.</span>친구들 무리에서 나는 어떤 캐릭터일까?</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">22.</span>나와 잘 맞는 사람의 공통점</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">23.</span>나와 자꾸 부딪히는 사람의 공통점</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">24.</span>나와 같이 일하면 어떤 사람인가</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">25.</span>관계 속 나의 경계선</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">26.</span>나는 어떤 방식으로 사람과 깊어질까?</div>
+      <div style="margin-top: 40px; padding-bottom: 14px; border-bottom: 2px solid #F2F0EC; display: flex; align-items: baseline; gap: 12px"><span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em; color: #F5C518">PART 5</span><span style="font-size: 21px; font-weight: 900; letter-spacing: -0.02em">제5부 결론</span></div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">27.</span>MY INITIAL CODE</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">28.</span>ME IN 6</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">29.</span>PEOPLE WILL REMEMBER</div>
+      <div style="border-top: 1px solid #2a2a2a; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #3EA575; font-weight: 800; width: 34px">30.</span>MY USER MANUAL</div>
+      <div style="border-top: 1px solid #2a2a2a; border-bottom: 2px solid #F2F0EC; padding: 18px 0; display: flex; gap: 14px; font-size: 16px; font-weight: 600; color: #D8D5D0;"><span style="color: #F5C518; font-weight: 800; width: 34px">31.</span>MY DEFAULT SETTINGS</div>
+    </div>
+  </div>
+
+  <div style="padding: 46px 44px 0; display: flex; align-items: center; gap: 16px; font-size: 15px; font-weight: 800; letter-spacing: 0.12em; color: #9a9a9a">
+    <div style="flex: 1; height: 1px; background: #2a2a2a"></div><span>FINAL PROFILE · THIS IS ME.</span><div style="flex: 1; height: 1px; background: #2a2a2a"></div>
+  </div>
+
+  <div style="padding: 180px 44px 0; display: block">
+    <div>
+      <div style="font-size: 62px; font-weight: 900; line-height: 1.18; letter-spacing: -0.05em">“<b data-path-to-node="5,0,0" data-index-in-node="1" class="" style="font-size: 62px; width: 606px; height: 247px">나를 꿰뚫지 못하는 <br>두루뭉술한 운세풀이</b>”</div>
+      <div style="margin-top: 40px; font-size: 46px; font-weight: 900; line-height: 1.3; letter-spacing: -0.035em; color: #F5C518">뻔한 소리는 질색이야.</div>
+      <div style="margin-top: 58px; font-size: 25px; font-weight: 500; line-height: 1.9; color: #FFFFFF">"사주X수비학X자미두수로 3차 검증"<br><br>듣기 좋은 소리로 기분만 맞춰주고 끝내지 않아.<br>“아, 그래서 내 인간관계가 맨날 이 모양이었구나” <br>무릎을 탁 치게 만들지.<br><br>한 번 읽고 버리는 게 아니라, <br>인생이 꼬일 때마다 꺼내보는 너만의 인생 치트키 북.</div>
+    </div>
+  </div>
+
+  <div style="padding: 90px 44px 0">
+    <div style="background: #141414; border: 1px solid #2a2a2a; padding: 54px 42px">
+      <div style="display: flex; align-items: baseline; gap: 16px">
+        <div style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 900">01</div>
+        <div style="font-size: 26px; font-weight: 900">친구가 다른 친구에게 나를 소개한다면?</div>
+      </div>
+      <div style="margin-top: 18px; font-size: 15px; font-weight: 700; letter-spacing: 0.14em; color: #F5C518">남의 입으로 듣는 나</div>
+      <div style="margin-top: 40px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #D8D5D0;">“말이 많은 편은 아닌데, 대충 듣지는 않아. 결정할 땐 확실하고.”<br><br>친구가 친구에게 당신을 소개한다면 아마 이럴 겁니다. 관찰력이 깊은 당신은 상황 전체가 보일 때까지 반응을 아끼죠. 사람들은 이 시간을 <strong style="font-weight: 800">‘거리감’</strong>으로 읽지만, 가까워진 사람은 압니다. 당신이 조용한 건 무엇이 중요한지 고르는 중이라는 걸요.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #D8D5D0;">당신이 말이 짧아졌다면? 이미 결정은 끝난 겁니다. 같은 관찰력이 앞에서는 신중함으로, 뒤에서는 구체적인 관심으로 보입니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #D8D5D0; filter: blur(2px); opacity: 0.66;">전에 한 말을 기억해 선택에 반영하고, 문제가 생기면 감정의 양보다 핵심부터 정리해 줍니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #D8D5D0; filter: blur(5px); opacity: 0.44;">거리감은 높음에서 중간으로, 단호함은 중간에서 높음으로 움직입니다. 이 지표는 사람들이 당신을 해석하는 순서에 가깝습니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #D8D5D0; filter: blur(8px); opacity: 0.24;">앞에서 아낀 반응이 뒤에서 어떻게 쓰이는지 알면, 같은 태도로도 원하는 인상을 만들 수 있습니다.</div>
+      <div style="margin-top: 42px; padding-top: 28px; border-top: 1px dashed #333333; display: flex; justify-content: space-between; font-size: 17px; font-weight: 700; color: #8a8a8a"><span>CHAPTER 01 · 계속</span><span style="color: #F5C518">발행본에서 전문 열람</span></div>
+    </div>
+    <div style="background: #111; color: #fff; padding: 54px 42px">
+      <div style="display: flex; align-items: baseline; gap: 16px">
+        <div style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 900">04</div>
+        <div style="font-size: 26px; font-weight: 900">나를 싫어하는 사람들의 공통점</div>
+      </div>
+      <div style="margin-top: 18px; font-size: 15px; font-weight: 700; letter-spacing: 0.14em; color: #3EA575">유독 부딪히는 이유</div>
+      <div style="margin-top: 40px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8;">당신을 싫어하는 사람들은 조용한 사람을 싫어하는 게 아닙니다. 대화의 주도권을 말의 양으로 확인하는 사람, 분위기로 결론을 밀어붙이는 사람, 자신의 감정을 상대가 알아서 처리해주길 바라는 사람과 부딪힐 가능성이 큽니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8;">긴 이야기를 듣고도 핵심이 하나라고 판단하면 그 하나만 남깁니다. 누군가에게는 명쾌하지만, 자신이 쌓아 올린 말이 힘을 잃었다고 느끼는 사람에게는 가시처럼 박힙니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8; filter: blur(2px); opacity: 0.66;">반대로 기준을 존중하는 사람은 이 태도를 편하게 느낍니다. 싫은 걸 돌려 말하며 시험하지 않으니까요.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8; filter: blur(5px); opacity: 0.44;">문제는 단호함이 아니라 상대가 그 단호함의 근거를 들을 기회가 있었느냐입니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8; filter: blur(8px); opacity: 0.24;">조심할 건 더 친절한 사람이 되는 일이 아닙니다. 정답만 전달하는 사람으로 보이지 않는 것.</div>
+      <div style="margin-top: 42px; padding-top: 28px; border-top: 1px dashed #3a3a3a; display: flex; justify-content: space-between; font-size: 17px; font-weight: 700; color: #8e8e8e"><span>CHAPTER 04 · 계속</span><span style="color: #3EA575">발행본에서 전문 열람</span></div>
+    </div>
+    <div style="background: #111; color: #fff; padding: 54px 42px">
+      <div style="display: flex; align-items: baseline; gap: 16px">
+        <div style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 900">21</div>
+        <div style="font-size: 26px; font-weight: 900">친구들 모임에서의 나</div>
+      </div>
+      <div style="margin-top: 18px; font-size: 15px; font-weight: 700; letter-spacing: 0.14em; color: #F5C518">단톡방 시뮬레이션</div>
+      <div style="margin-top: 40px; background: #fff; color: #111; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 12px; font-size: 18px; font-weight: 500">
+        <div style="display: flex; justify-content: space-between; font-size: 15px; font-weight: 700; color: #9a9a9a; letter-spacing: 0.1em; padding-bottom: 8px"><span>MY ROLE</span><span style="color: #111">최종 결정 버튼</span></div>
+        <div style="align-self: flex-start; background: #f0efee; border-radius: 4px 20px 20px 20px; padding: 14px 20px">민지 · 이번 주 토요일 만날 사람</div>
+        <div style="align-self: flex-start; background: #f0efee; border-radius: 20px; padding: 14px 20px">수현 · 나 가능 / 지우 · 나도</div>
+        <div style="align-self: flex-start; background: #f0efee; border-radius: 20px; padding: 14px 20px">민지 · 그래서 어디서 봄</div>
+        <div style="align-self: flex-end; max-width: 80%; background: #111; color: #fff; border-radius: 20px 4px 20px 20px; padding: 16px 22px; font-weight: 700">나 · 성수 6시. 싫은 사람 3분 안에 말해</div>
+        <div style="align-self: flex-start; background: #f0efee; border-radius: 20px; padding: 14px 20px">민지 · 역시 너밖에 없다</div>
+      </div>
+      <div style="margin-top: 40px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8">당신은 대화가 길어질 때 판을 정리하는 리더입니다. 본인은 부정할지 모르지만, 막히는 순간 사람들은 자연스럽게 당신을 봅니다. 메시지 참여율은 중간, 상황 파악률은 최상. 친구들이 기대하는 것은 늘 하나, <strong style="font-weight: 800; color: #fff">“쟤가 정해주겠지.”</strong></div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8; filter: blur(4px); opacity: 0.48">단점도 분명합니다. 기다린 시간이 길수록 마지막 말이 단호해져서, 다른 사람은 참여할 틈을 잃었다고 느낄 수 있습니다.</div>
+      <div style="margin-top: 28px; font-size: 19px; font-weight: 500; line-height: 2.05; color: #d8d8d8; filter: blur(8px); opacity: 0.24">같은 역할은 가족 안에서도, 회사 안에서도 반복됩니다. 이름만 달라질 뿐 당신이 맡는 자리는 비슷합니다.</div>
+      <div style="margin-top: 42px; padding-top: 28px; border-top: 1px dashed #3a3a3a; display: flex; justify-content: space-between; font-size: 17px; font-weight: 700; color: #8e8e8e"><span>CHAPTER 21 · 계속</span><span style="color: #F5C518">발행본에서 전문 열람</span></div>
+    </div>
+    <div style="background: #111; color: #fff; padding: 54px 42px">
+      <div style="display: flex; align-items: baseline; justify-content: space-between">
+        <div style="font-family: 'Playfair Display', serif; font-size: 34px; font-weight: 900">FINAL PROFILE</div>
+        <div style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 22px; font-weight: 700; color: #3EA575">ME, BY DESIGN.</div>
+      </div>
+      <div style="margin-top: 34px; display: flex; flex-direction: column">
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">INITIAL CODE</span><span style="font-weight: 800">9-A1</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">TYPE</span><span style="font-weight: 800">의미우선형</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">SIGNATURE</span><span style="font-weight: 800">편집</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">FIRST IMPRESSION</span><span style="font-weight: 800">차분하고 쉽게 허점을 보이지 않음</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">AFTER KNOWING ME</span><span style="font-weight: 800">생각보다 단호하고 웃음 포인트가 선명함</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">ATTRACTION POINT</span><span style="font-weight: 800">시선 · 짧은 말 · 정확한 기억</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">IN A CIRCLE</span><span style="font-weight: 800">최종 결정 버튼</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">ONLINE</span><span style="font-weight: 800">장면에 맥락을 붙이는 사람</span></div>
+        <div style="display: grid; grid-template-columns: 210px 1fr; gap: 20px; padding: 18px 0; border-top: 1px solid #2c2c2c; font-size: 17px;"><span style="color: #8e8e8e; font-weight: 700; letter-spacing: 0.1em">ONE THING TO REMEMBER</span><span style="font-weight: 800">이해한 것과 책임질 것은 다르다</span></div>
+      </div>
+      <div style="margin-top: 42px; padding-top: 28px; border-top: 1px dashed #3a3a3a; display: flex; justify-content: space-between; font-size: 17px; font-weight: 700; color: #8e8e8e"><span>THIS IS ME.</span><span style="color: #3EA575">발행본에서 전문 열람</span></div>
+    </div>
+
+
+
+    <div style="margin-top: 44px">
+      <div style="border: 1px solid #2a2a2a; padding: 44px 34px; display: flex; flex-direction: column; gap: 8px">
+        <div style="font-size: 15px; font-weight: 700; letter-spacing: 0.14em; color: #9a9a9a">🔋 현재 에너지 상태</div>
+        <div style="font-size: 24px; font-weight: 900">‘강제 절전 모드’</div>
+        <div style="margin-top: 24px; display: flex; align-items: center; gap: 14px; font-size: 15px; font-weight: 700; color: #8a8a8a">
+          <span>영혼 충전 구간</span>
+          <div style="flex: 1; position: relative; height: 4px; background: #2a2a2a"><div style="position: absolute; left: 22%; top: -6px; width: 16px; height: 16px; border-radius: 50%; background: #F5C518"></div></div>
+          <span>순간 방전 구간</span>
+        </div>
+        <div style="margin-top: 16px; font-size: 17px; font-weight: 600; color: #C7C3BD">멘탈이 털리면 대화로 풀기보다 일단 카톡을 읽씹하고 잠수 타는 타입.</div>
+        <div style="margin-top: 36px; border-top: 1px solid #2a2a2a; padding-top: 30px; display: flex; flex-direction: column; gap: 20px">
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; justify-content: space-between; font-size: 17px; font-weight: 800"><span>😶‍🌫️ 혼자 삭히는 지수</span><span style="color: #F5C518">94</span></div>
+            <div style="height: 8px; border-radius: 5px; background: #202020"><div style="width: 94%; height: 8px; border-radius: 5px; background: #F5C518"></div></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; justify-content: space-between; font-size: 17px; font-weight: 800"><span>🧱 방어벽 두께</span><span style="color: #3EA575">89</span></div>
+            <div style="height: 8px; border-radius: 5px; background: #202020"><div style="width: 89%; height: 8px; border-radius: 5px; background: #3EA575"></div></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; justify-content: space-between; font-size: 17px; font-weight: 800"><span>💬 칼답 유발 지수</span><span style="color: #F5C518">78</span></div>
+            <div style="height: 8px; border-radius: 5px; background: #202020"><div style="width: 78%; height: 8px; border-radius: 5px; background: #F5C518"></div></div>
+          </div>
+        </div>
+      </div><div style="padding: 80px 44px 0; display: flex; flex-direction: column">
+    
+    
+    
+  </div>
+    </div>
+
+  </div>
+
+  <div style="padding: 200px 44px 0; display: block">
+    <div>
+      <div style="font-size: 34px; font-weight: 900; line-height: 1.2; letter-spacing: -0.03em">REVIEWS</div>
+    </div>
+  </div>
+
+  <div style="margin: 90px 44px 0; background: #141414; border: 1px solid #2a2a2a; padding: 40px 32px; display: flex; flex-direction: column; gap: 40px">
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 22px; border-bottom: 1px solid #2a2a2a">
+      <div style="font-size: 19px; font-weight: 800">ABOUT ME 후기방</div>
+      <div style="font-size: 15px; font-weight: 700; color: #9a9a9a">6</div>
+    </div>
+
+    <div style="display: flex; gap: 14px; align-items: flex-start">
+      <div style="width: 52px; height: 52px; border-radius: 50%; background: #262626; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; flex: none">女</div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <div style="display: flex; align-items: baseline; gap: 10px"><span style="font-size: 16px; font-weight: 800">김님</span><span style="font-size: 14px; color: #F5C518; letter-spacing: 0.08em">★★★★★</span></div>
+        <div style="width: fit-content; max-width: 560px; background: #1c1c1c; border-radius: 24px 24px 24px 4px; padding: 26px 28px; display: flex; flex-direction: column; gap: 16px">
+          <div style="font-size: 25px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em">“내 일상 행동 패턴을 고발당한 기분이에요.”</div>
+          <div style="font-size: 18px; font-weight: 500; line-height: 1.9; color: #B0ACA6">사주나 타로 볼 때는 그냥 두루뭉술한 소리만 듣고 말았는데, 이건 아예 제 일상 행동 패턴을 고발당한 기분이에요ㅋㅋ 특히 단톡방 역할 시뮬레이션에서 너무 소름 돋아서 폰 던질 뻔했습니다.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 14px; align-items: flex-start; flex-direction: row-reverse">
+      <div style="width: 52px; height: 52px; border-radius: 50%; background: #3EA575; color: #111; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; flex: none">女</div>
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end; text-align: right">
+        <div style="display: flex; align-items: baseline; gap: 10px"><span style="font-size: 14px; color: #3EA575; letter-spacing: 0.08em">★★★★★</span><span style="font-size: 16px; font-weight: 800">박님</span></div>
+        <div style="width: fit-content; max-width: 560px; background: #222222; color: #fff; border-radius: 24px 24px 4px 24px; padding: 26px 28px; display: flex; flex-direction: column; gap: 16px; text-align: left">
+          <div style="font-size: 25px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em">“팩폭해 줘서 오히려 신뢰가 가더라고요.”</div>
+          <div style="font-size: 18px; font-weight: 500; line-height: 1.9; color: #cfcfcf">첫인상이 남들에게 어떻게 박혀 있는지 궁금해서 해봤는데, 듣기 좋은 칭찬만 써 있는 게 아니라 "이래서 주변 사람이 피곤하다"까지 팩폭해 줘서 오히려 신뢰가 가더라고요. 다 읽고 나니까 내 쓸데없는 에너지를 어디에 쏟고 있었는지 정리가 싹 되네요.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 14px; align-items: flex-start">
+      <div style="width: 52px; height: 52px; border-radius: 50%; background: #262626; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; flex: none">男</div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <div style="display: flex; align-items: baseline; gap: 10px"><span style="font-size: 16px; font-weight: 800">정님</span><span style="font-size: 14px; color: #F5C518; letter-spacing: 0.08em">★★★★★</span></div>
+        <div style="width: fit-content; max-width: 560px; background: #1c1c1c; border-radius: 24px 24px 24px 4px; padding: 26px 28px; display: flex; flex-direction: column; gap: 16px">
+          <div style="font-size: 25px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em">“너랑 소름 끼치게 똑같다고 DM이 왔어요.”</div>
+          <div style="font-size: 18px; font-weight: 500; line-height: 1.9; color: #B0ACA6">디자인이랑 레이아웃 감성이 진짜 미쳤어요... 인스타 스토리에 '5 SECONDS OF ME' 한 장 올렸더니 친구들이 DM으로 "이거 어디서 했냐, 너랑 소름 끼치게 똑같다"고 연락 오더라고요. 뻔한 테스트랑은 결이 다릅니다.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 14px; align-items: flex-start; flex-direction: row-reverse">
+      <div style="width: 52px; height: 52px; border-radius: 50%; background: #3EA575; color: #111; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; flex: none">女</div>
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end; text-align: right">
+        <div style="display: flex; align-items: baseline; gap: 10px"><span style="font-size: 14px; color: #3EA575; letter-spacing: 0.08em">★★★★★</span><span style="font-size: 16px; font-weight: 800">이님</span></div>
+        <div style="width: fit-content; max-width: 560px; background: #222222; color: #fff; border-radius: 24px 24px 4px 24px; padding: 26px 28px; display: flex; flex-direction: column; gap: 16px; text-align: left">
+          <div style="font-size: 25px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em">“나를 다루는 사용설명서를 손에 쥔 기분입니다.”</div>
+          <div style="font-size: 18px; font-weight: 500; line-height: 1.9; color: #cfcfcf">퍼스널 브랜딩 하겠다고 이리저리 흔들리고 있었는데, 이 리포트 읽고 내가 SNS에서 어떤 면을 밀어야 사람들이 입덕하는지 정확히 답을 찾았어요. 나를 다루는 구체적인 사용설명서(USER MANUAL)를 손에 쥔 기분입니다.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 14px; align-items: flex-start">
+      <div style="width: 52px; height: 52px; border-radius: 50%; background: #262626; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; flex: none">女</div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <div style="display: flex; align-items: baseline; gap: 10px"><span style="font-size: 16px; font-weight: 800">추님</span><span style="font-size: 14px; color: #F5C518; letter-spacing: 0.08em">★★★★★</span></div>
+        <div style="width: fit-content; max-width: 560px; background: #1c1c1c; border-radius: 24px 24px 24px 4px; padding: 26px 28px; display: flex; flex-direction: column; gap: 16px">
+          <div style="font-size: 25px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em">“내 인간관계가 왜 꼬였는지 한눈에 보였어요.”</div>
+          <div style="font-size: 18px; font-weight: 500; line-height: 1.9; color: #B0ACA6">첫인상(회색 점)에서 친해진 뒤(분홍색 점)로 이어지는 슬라이더를 보는데, 왜 내 관계가 자꾸 꼬였는지 원인이 바로 보이더라고요. 감정에 호소하는 위로보다 이런 날카로운 분석이 훨씬 도움 돼요.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 14px; align-items: flex-start; flex-direction: row-reverse">
+      <div style="width: 52px; height: 52px; border-radius: 50%; background: #3EA575; color: #111; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; flex: none">男</div>
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end; text-align: right">
+        <div style="display: flex; align-items: baseline; gap: 10px"><span style="font-size: 14px; color: #3EA575; letter-spacing: 0.08em">★★★★★</span><span style="font-size: 16px; font-weight: 800">윤님</span></div>
+        <div style="width: fit-content; max-width: 560px; background: #222222; color: #fff; border-radius: 24px 24px 4px 24px; padding: 26px 28px; display: flex; flex-direction: column; gap: 16px; text-align: left">
+          <div style="font-size: 25px; font-weight: 800; line-height: 1.5; letter-spacing: -0.02em">“내 머릿속을 엑스레이 찍은 것 같아요.”</div>
+          <div style="font-size: 18px; font-weight: 500; line-height: 1.9; color: #cfcfcf">태초의 소스코드부터 나를 재조립해 주는 느낌이라 마지막에 AirDrop 수락할 때 쾌감이 장난 아니에요 ㅋㅋ 대만족!</div>
+        </div>
+      </div>
+    </div>
+  </div><div style="padding: 60px 44px 150px">
+   
+  </div>
+
+
+
+  <img src="img/8caf7144.webp" width="2160" height="3288" decoding="async" alt="about me spread" style="width: 100%; display: block;height:auto">
+
+  <div style="background: #111; color: #fff; padding: 140px 44px">
+    <div style="display: block">
+      <div>
+        <div style="font-size: 62px; font-weight: 900; line-height: 1.22; letter-spacing: -0.045em; width: 399px; height: 150px">성격,연애,<br>MONEY</div>
+        
+        <div style="margin-top: 100px; font-size: 46px; font-weight: 900; line-height: 1.3; letter-spacing: -0.035em; color: #3EA575">사주 따로 볼 시간에<br>이거 하나면 돼.</div><div style="margin-top: 100px; font-size: 21px; font-weight: 500; line-height: 1.95; color: #b9b9b9">어차피 이 모든 건 ‘나’라는 한 사람의 서사니까.<br>흩어져 있던 너라는 조각을 한 번에 맞추는 유일무이한 거울.</div>
+      </div>
+    </div>
+    <div style="margin-top: 84px; background: rgba(255,255,255,0.07); border: 1px solid #333; border-radius: 26px; padding: 36px; display: flex; align-items: center; gap: 26px">
+      <div style="width: 92px; height: 92px; border-radius: 22px; background: #3EA575; color: #111; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 900">ME</div>
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 8px">
+        <div style="font-size: 21px; font-weight: 800">ABOUT ME가 ‘나’를 공유하려고 합니다.</div>
+        <div style="font-size: 16px; font-weight: 600; color: #9a9a9a">9-A1 · 의미우선형</div>
+      </div>
+      <div style="display: flex; gap: 10px">
+        <div style="border: 1px solid #555; border-radius: 999px; padding: 12px 22px; font-size: 16px; font-weight: 700; color: #9a9a9a">거절</div>
+        <div style="background: #fff; color: #111; border-radius: 999px; padding: 12px 22px; font-size: 16px; font-weight: 800; cursor: pointer; transition: transform 0.15s ease, background 0.15s ease" class="hv1">수락</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div style="padding: 200px 44px 0; display: block">
+    <div>
+      <div style="font-size: 74px; font-weight: 900; line-height: 1.18; letter-spacing: -0.05em">궁금한 건 결국 <br>하나야.</div>
+      <div style="margin-top: 60px; font-size: 46px; font-weight: 900; line-height: 1.3; letter-spacing: -0.035em; color: #3EA575">“나는 대체 어떤 사람이지?”</div>
+    </div>
+  </div>
+
+  <div style="padding: 90px 44px 0; display: flex; flex-direction: column">
+    <div style="border-top: 2px solid #F2F0EC; padding: 44px 0; display: grid; grid-template-columns: 26px 190px 1fr; column-gap: 22px; align-items: baseline">
+      <div style="font-size: 16px; font-weight: 700; color: #F5C518">+</div>
+      <div style="font-family: 'Playfair Display', serif; font-size: 44px; font-weight: 900; line-height: 1">KEEP</div>
+      <div style="font-size: 21px; font-weight: 600; line-height: 1.75; color: #C7C3BD">굳이 바꾸지 않아도 되는 당신만의 고유성</div>
+    </div>
+    <div style="border-top: 1px solid #2a2a2a; padding: 44px 0; display: grid; grid-template-columns: 26px 190px 1fr; column-gap: 22px; align-items: baseline">
+      <div style="font-size: 16px; font-weight: 700; color: #3EA575">+</div>
+      <div style="font-family: 'Playfair Display', serif; font-size: 44px; font-weight: 900; line-height: 1">GROW</div>
+      <div style="font-size: 21px; font-weight: 600; line-height: 1.75; color: #C7C3BD">앞으로 더 크게 써먹어도 되는 당신의 필살기</div>
+    </div>
+    <div style="border-top: 1px solid #2a2a2a; padding: 44px 0; display: grid; grid-template-columns: 26px 190px 1fr; column-gap: 22px; align-items: baseline">
+      <div style="font-size: 16px; font-weight: 700; color: #9a9a9a">−</div>
+      <div style="font-family: 'Playfair Display', serif; font-size: 44px; font-weight: 900; line-height: 1; color: #9a9a9a">LESS</div>
+      <div style="font-size: 21px; font-weight: 600; line-height: 1.75; color: #8F8B85">불필요한 소음을 덜어낼 당신만의 경계선</div>
+    </div>
+    <div style="border-top: 1px solid #2a2a2a; border-bottom: 2px solid #F2F0EC; padding: 44px 0; display: grid; grid-template-columns: 26px 190px 1fr; column-gap: 22px; align-items: baseline">
+      <div style="font-size: 16px; font-weight: 700; color: #9a9a9a">×</div>
+      <div style="font-family: 'Playfair Display', serif; font-size: 44px; font-weight: 900; line-height: 1; color: #9a9a9a">NEVER</div>
+      <div style="font-size: 21px; font-weight: 600; line-height: 1.75; color: #8F8B85">아무리 좋아 보여도 당신과 결코 맞지 않는 방식</div>
+    </div>
+  </div>
+
+  <div style="padding: 220px 44px 200px; text-align: center">
+    
+  <div style="font-size: 44px; font-weight: 900; line-height: 1.9; letter-spacing: -0.03em">그 끝없는 질문에<br><font color="#f5c518" style="font-size: 62px">마침표를 찍을 시간.<br></font>더 이상 인터넷 헤매지 마.</div></div>
+
+
+  <div style="background: #1a1618">
+    <video src="video/f0b505e1.mp4" autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" style="width: 100%; display: block"></video>
+  </div>
+
+  <div style="background: #111; color: #fff; padding: 120px 44px 0">
+    <div style="font-size: 60px; font-weight: 800; line-height: 1.5; letter-spacing: -0.01em; color: #d8d5d0; margin-bottom: 110px">ABOUT ME에서 <br>정답을 알려줄게.</div>
+    <div style="border-top: 2px solid #F5C518; padding-top: 44px; display: flex; align-items: flex-end; justify-content: space-between">
+      <div style="display: flex; flex-direction: column; gap: 18px">
+        <div style="font-size: 16px; font-weight: 600; letter-spacing: 0.26em; color: #F5C518">ABOUT ME</div>
+        <div style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 34px; font-weight: 700">me, by design.</div>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px">
+        <div style="font-size: 16px; font-weight: 700; color: #F5C518; letter-spacing: 0.1em">PREMIUM EDITION</div>
+        <div style="font-size: 72px; font-weight: 900; letter-spacing: -0.045em; line-height: 1">49,000원</div>
+      </div>
+    </div>
+    <div style="margin-top: 52px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px">
+      <a href="https://dohwasalon.com/product/detail.html?product_no=18&amp;cate_no=23&amp;display_group=1" target="_blank" style="border: 1px solid #fff; color: #fff; text-decoration: none; text-align: center; padding: 30px 0; font-size: 22px; font-weight: 900; cursor: pointer; transition: background 0.15s ease" class="hv2">장바구니</a>
+      <a href="https://dohwasalon.com/product/detail.html?product_no=18&amp;cate_no=23&amp;display_group=1" target="_blank" style="background: #F5C518; color: #111; text-decoration: none; text-align: center; padding: 30px 0; font-size: 22px; font-weight: 900; cursor: pointer; transition: background 0.15s ease, transform 0.15s ease" class="hv3">VIEW MY ABOUT ME →</a>
+    </div>
+    <div style="margin-top: 46px; display: flex; justify-content: space-between; font-size: 15px; font-weight: 700; letter-spacing: 0.1em; color: #7a7a7a; border-top: 1px solid #2c2c2c; padding-top: 26px">
+      <span>31 CHAPTERS</span><span>WEB REPORT</span><span>1 DAY</span><span>FOREVER ACCESS</span>
+    </div>
+  </div>
+
+  <div style="background: #111; padding: 130px 44px 110px; color: #fff">
+    <div style="padding-top: 28px; border-top: 1px solid #2c2c2c; display: flex; align-items: baseline; justify-content: space-between">
+      <div style="font-size: 22px; font-weight: 900">ABOUT ME</div>
+      <div style="font-size: 15px; font-weight: 600; letter-spacing: 0.14em; color: #8e8e8e">DOHWA SALON · @BY NAYUN</div>
+    </div>
+    <div style="margin-top: 40px; font-size: 14px; font-weight: 500; line-height: 1.9; color: #6f6f6f">본 리포트는 생년월일시 원국에 근거해 작성되며, 무단 복제 및 재배포를 금지합니다.<br>상호명 훈엔터 · 사업자등록번호 187-15-03050 · 인천광역시 계양구 주부토로<br>ⓒ 도화살롱 · DOHWA SALON</div>
+  </div>
+</div>
+
+
+</body></html>
